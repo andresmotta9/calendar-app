@@ -66,6 +66,7 @@ export const CalendarModal = () => {
             onChange={(event) => onDateChange(event, 'start')}
             wrapperClassName="form-control"
             dateFormat="Pp"
+            showTimeSelect
           />
         </div>
 
@@ -77,6 +78,7 @@ export const CalendarModal = () => {
             onChange={(event) => onDateChange(event, 'end')}
             wrapperClassName="form-control"
             dateFormat="Pp"
+            showTimeSelect
           />
         </div>
 
